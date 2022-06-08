@@ -23,8 +23,6 @@ WHERE
 
   --3. Filtering REGION, result: 20
   --  AND country.region IS NULL
-  --  AND country.table_name NOT LIKE '%dividend%'
-  --  AND country.table_name NOT LIKE '%income%'
   
   --Getting values from indicators
   AND
