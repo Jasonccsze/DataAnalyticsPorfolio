@@ -14,17 +14,15 @@ WHERE
   AND country.table_name NOT LIKE '%IBRD%'
 
   --Use 1 of 3 filters depending on data availability
-  --1. Filtering LOCATION and REGION
+  --1. Filtering LOCATION, REGION, and INCOME GROUP
   --AND (country.income_group IS NOT NULL
   --OR country.region IS NULL)
 
   --2. Filtering LOCATION, result: 216
   --  AND country.income_group IS NOT NULL
 
-  --3. Filtering REGION, result: 20
+  --3. Filtering REGION and INCOME GROUP, result: 20
     AND country.region IS NULL
-  --  AND country.table_name NOT LIKE '%dividend%'
-  --  AND country.table_name NOT LIKE '%income%'
   
   --Getting values from indicators
   AND
