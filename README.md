@@ -2,7 +2,7 @@
 This repository contains my personal projects of data analysis.  
 Tools: Microsoft Excel, BigQuery SQL Workspace, RStudio, Tableau  
 
-Project #1 - Is knowledge power?  
+Project #01 - Is knowledge power?  
 SQL script:  
 #01 check_indicator.sql  
 #02 extract_indicator.sql  
