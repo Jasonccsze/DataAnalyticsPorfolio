@@ -8,7 +8,7 @@ This is a case study to identify whether education can improve the quality of li
 SQL script:  
 #01 check_indicator.sql  
 #02 extract_indicator.sql  
-#03 extract_conflict.sql
+#03 extract_conflict.sql  
 #04 extract_data_edu.sql  
 #05 extract_data_env.sql  
 #06 extract_data_fina.sql  
