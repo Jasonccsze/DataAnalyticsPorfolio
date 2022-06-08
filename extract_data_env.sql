@@ -21,7 +21,7 @@ WHERE
   --2. Filtering LOCATION, result: 216
   --  AND country.income_group IS NOT NULL
 
-  --3. Filtering REGION, result: 20
+  --3. Filtering REGION and INCOME GROUP, result: 20
   --  AND country.region IS NULL
   
   --Getting values from indicators
