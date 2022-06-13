@@ -1,4 +1,4 @@
-# DataAnalyticsPorfolio  
+# DataAnalyticsPortfolio  
 This repository contains my personal projects of data analysis.  
 Tools: Microsoft Excel, BigQuery SQL workspace, RStudio, Tableau  
   
