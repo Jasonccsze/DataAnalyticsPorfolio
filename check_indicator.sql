@@ -15,6 +15,8 @@ WHERE
   --AND country_name LIKE '%dividend%'
   --Filtering by income groups
   --AND country_name LIKE '%income%'
+  --Filtering by REGIONS and INCOME GROUPS
+  --AND country.region IS NULL
 
   --## Using indicator codes obtained from series summary table for this query
   
