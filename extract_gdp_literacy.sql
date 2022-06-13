@@ -35,4 +35,4 @@ WHERE
   
   --Getting target range of years
   AND
-  indicator.year BETWEEN 1980 AND 2020
+  indicator.year BETWEEN 1990 AND 2020
