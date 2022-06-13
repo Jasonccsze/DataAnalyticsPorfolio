@@ -1,4 +1,4 @@
---## Extracting countries' codes, names, and region, indicators' codes and names, values of metrics within target range of years
+--## Extracting countries' names and region, indicators' names, values of metrics within target range of years
 SELECT country.region, country.table_name, indicator.year, indicator.indicator_name, indicator.value
 
 FROM `bigquery-public-data.world_bank_wdi.country_summary` AS country
